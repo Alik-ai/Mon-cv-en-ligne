@@ -1,0 +1,21 @@
+/*Body*/
+#back{
+    background-color: aqua;
+}
+/*Header*/
+.navi{
+    margin-bottom: 30px;
+}
+/*L'accueil*/
+    .accueil{
+        background-color: blueviolet;
+    }
+    /*Photo de profil*/
+    #photopp{
+        height: auto;
+        width: 100%;
+    }
+    /*Nom prénom*/
+    .titre1{
+        
+    }
