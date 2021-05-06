@@ -1,21 +1,87 @@
 /*Body*/
 #back{
-    background-color: aqua;
+    background-color:#1c1d21;
+    
 }
 /*Header*/
 .navi{
     margin-bottom: 30px;
+    background-color: #a31621;
 }
+
 /*L'accueil*/
     .accueil{
-        background-color: blueviolet;
+        background-color: #a31621;
+        height: 650px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+        
     }
     /*Photo de profil*/
     #photopp{
-        height: auto;
-        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #photop{
+        height: 500px;
+        width: auto;
+        clip-path: ellipse(50% 50%);
     }
     /*Nom prénom*/
     .titre1{
-        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Baskerville Old Face;
     }
+    h1{
+        font-size: 80px;
+    }
+/*Trois div assembler*/
+.groupe{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+    /* separer les trois div*/
+        /*Première div*/
+        .image{
+            height: 40px;
+            float: left;
+        }
+        .grp1{
+            background-color: #a31621;
+            margin-right: 45px;
+            
+            
+        }
+        /*Deuxieme div*/
+        .grp2{
+            background-color: #a31621;
+            margin-right: 45px;
+            
+        }
+        hr{
+            height: 100vh;
+            width: 1px;
+            color: white;
+        }
+        /*Troisième div*/
+        .grp3{
+            background-color: #a31621;
+        }
+/*Competence*/
+.compet{
+    background-color: #a31621;
+    margin-top: 5px;
+    height: 300px;
+}
+/*Portfolio*/
+.Portfolio{
+    background-color: #a31621;
+    margin-top: 5px;
+    height: 300px;
+}
