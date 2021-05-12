@@ -1,21 +1,12 @@
 /*Body*/
 #back{
-    background-color:#F26419;
-    margin: px;
+    background-image:url(./image/hexagon-6233333_1920.jpg);
+    background-repeat:cover;
+    height: 100vh;
 }
-
-/*Information*/
-.info{
-    color: white;
-}
-    /*Google maps*/
-    .GMC{
-        background-color: #331608;
-        padding-top: 10px;
-    }
 /*L'accueil*/
     .accueil{
-        background-color: #331608;
+        background-image: url(./image/cyber-3400789_1920.jpg);
         height: 650px;
         margin-left: 0px;
         margin-right: 0px;
@@ -43,25 +34,19 @@
     h1{
         font-size: 80px;
     }
-
-/*Trois div assembler*/
-
-    /* separer les trois div*/
-        /*Première div*/
-        .image{
-            height: 40px;
-            float: left;
-            margin-top: 22px;
-            margin-left: -6px;
-            padding-right: 5px;
-        }
-        /*Troisième div*/
-        .grp3{
-            background-color: #331608;
-        }
+/*Information*/
+.info{
+    background-image: url(./image/cyber-3400789_1920.jpg);
+    color:#f8f8f8;
+}
+/*Google maps*/
+.GMC{
+    background-image: url(./image/cyber-3400789_1920.jpg);
+    padding-top: 10px;
+}
 /*Competence*/
 .compet{
-    background-color: #331608;
+    background-image: url(./image/cyber-3400789_1920.jpg);
     margin-top: 25px;
     height: 300px;
     color: white;
@@ -78,13 +63,14 @@
     /*Ajout pour le shèma*/
 .titreshm{
     text-align: center;
-    
+    color: white;
 }
 section#timeline {
   width: 80%;
   margin: 20px auto;
   position: relative;
 }
+/*Trait milieu*/
 section#timeline:before {
   content: '';
   display: block;
@@ -94,7 +80,7 @@ section#timeline:before {
   margin: 0 0 0 -1px;
   width: 2px;
   height: 100%;
-  background: rgba(255,255,255,0.2);
+  background: yellow;
 }
 section#timeline article {
   width: 100%;
@@ -157,9 +143,8 @@ section#timeline article div.inner h2:after {
   position: absolute;
   top: 20px;
   right: -5px;
-  	width: 10px; 
-	  height: 10px;
-  -webkit-transform: rotate(-45deg);
+  width: 10px; 
+  height: 10px;
 }
 section#timeline article div.inner p {
   padding: 15px;
@@ -206,8 +191,8 @@ section#timeline article:nth-child(5) div.inner h2:after {
   background: #9b59b6;
 }
 section#timeline article:nth-child(6) div.inner h2 {
-    background: #555;
-  }
+  background: #555;
+}
 section#timeline article:nth-child(6) div.inner h2:after {
-    background: #555;
-  }
+  background: #555;
+}
