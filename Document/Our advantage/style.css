@@ -1,0 +1,19 @@
+h2{
+    margin: 100px;
+    font-size: 40px;
+}
+.texte{
+    text-align: center;
+    font-size: large;
+}
+.img-perso{
+    width:100%;
+    height:auto;
+}
+.icone{
+    background-color: white;
+    border-radius: 10px;
+    border: solid black;
+    color: white;
+    font-size: 50px;
+}

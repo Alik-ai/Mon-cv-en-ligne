@@ -1,0 +1,80 @@
+/*Logo*/
+.logo{
+    width: 150px;
+    height: 100px;
+}
+/*BODY*/
+.couleur{
+    background-color:#51b8f1;
+}
+/*SECTION*/
+.colur{
+    background-color: white;
+}
+/*Contact et Mention*/
+hr{
+    height: 5px !important;
+    color: black;
+}
+/*Caroussel 1*/
+.image{
+   height: auto;
+   width: 100%;
+}
+/*Caroussel 2 */
+.personne{
+    height: 600px;
+    width: 1100px;
+}
+/*prise de rdv */
+label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: 15px;
+}
+#garage{
+    font-size: 17px;
+    margin: 5px;
+}
+.fly{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+/* SECTION SERVICES */
+/* Les listes */
+ol{
+    list-style-type: none;
+}
+ul{
+    list-style-type: none;
+    margin: 10px;
+}
+/*Mise en page*/
+.col-services li{
+    font-weight: bold;
+}
+.col-services li p{
+    font-weight: normal;
+    font-size: smaller;
+    padding-left:22px;
+}
+#se{
+    padding: 15px;
+}
+/*Popover*/
+.Popov{
+    background-color:#51b8f1;
+}
+/*Horaire */
+.horaire{
+    border: blue solid 3px;
+}
+/*Mention*/
+.mtct{
+    text-align: center;
+}
+.row{
+    --bs-gutter-x: 0rem;
+}
