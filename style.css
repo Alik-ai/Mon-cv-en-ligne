@@ -3,6 +3,11 @@
     background-image: url(./image/milky-way-345458_1280.jpg);
     background-size: contain;
 }
+/*Arrière plan pour container*/
+.Tous{
+  background-image: url(./image/texture-990104_1920.jpg);
+  opacity: 85%;
+}
 /*L'accueil*/
     .accueil{
       height: 500px;
@@ -17,7 +22,7 @@
     #photop{
         height: 350px;
         width: auto;
-        
+        border-radius: 10%;
     }
     /*Nom prénom*/
     .titre1{
@@ -32,30 +37,27 @@
     }
 /*Information*/
 .info{
-    color:#f8f8f8;
-    padding-left: 0px;
-    text-align: center;
+  color:#f8f8f8;
+  margin-top: 10px;
+  text-align: center;
+  background-image: url(./image/texture-990104_1920.jpg);
+  font-size: 19px;
 }
 .mail{
   margin-bottom: 0;
-  margin-top: 0px;
+  
 }
 /*Google maps*/
 .GMC{
     padding-top: 10px;
     padding-right: 0px;
-    
+    padding-left: 0px;
 }
-/*Competence*/
-.compet{
-    margin-top: 25px;
-    
-    color: white;
-}
+
 
 /*ce qui est pas a moi*/
     /*Ajout pour le shèma*/
-.titreshm{
+#parcour{
     text-align: center;
     color: white;
 }
@@ -63,6 +65,7 @@ section#timeline {
   width: 80%;
   margin: 20px auto;
   position: relative;
+  background-image: url(./image/texture-990104_1920.jpg);
 }
 /*Trait milieu*/
 section#timeline:before {
@@ -184,9 +187,18 @@ section#timeline article:nth-child(5) div.inner h2 {
 section#timeline article:nth-child(5) div.inner h2:after {
   background: rgb(209, 35, 35);
 }
+/*Competence*/
+.compet{
+    padding-right: 0px;
+    margin-bottom: 10px;
+    color: white;
+}
 /*Langue*/
-.langue{
-  padding-top: 40px;
+.langue{  
+  margin-left: 0px;
+  margin-right: 0px;
+  color: white;
+ 
 }
 /*Progresse bar circle*/
 .progres {
@@ -330,4 +342,31 @@ section#timeline article:nth-child(5) div.inner h2:after {
 .progres.green .progres-left .progres-bar {
   animation: loading-2 2.5s linear forwards 1.8s
 }
+/*Carrousel*/
 
+.carousel-controle-prev-icon{
+  color: #000;
+  
+}
+.carrou2{
+  margin-top: 15px;
+
+}
+h2{
+  text-align: center;
+  color: white;
+}
+h3{
+  color: white;
+}
+/*Footer*/
+.foot{
+  background-image: url(./image/texture-990104_1920.jpg);
+  color: white;
+  text-align: center;
+  padding: 0;
+}
+.fleche{
+  text-align: right;
+  
+}
