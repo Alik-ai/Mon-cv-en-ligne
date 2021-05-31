@@ -1,0 +1,118 @@
+/*C'est un reseat*/
+*,
+::before,
+::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+}
+
+/*First */
+
+.slide-line{
+    font-family: sans-serif;
+    font-size: 50px;
+    text-decoration: none; /* ca enleve le ptit trait (en dessous au debut sauf si on en ajoute un)*/
+    color: #222;
+    position: relative;
+}
+
+/*before ou after c'est pour ecrire avant ou apres*/
+.slide-line::before{
+    content: "";
+    position: absolute;
+    background: #222;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    transform-origin: 100% 0; /*sa fait tourner a partir d'un point*/
+    transform: scaleX(0);
+    transition: transform 0.4s;
+}
+
+.slide-line:hover::before{
+    transform-origin: 0 0;
+    transform: scaleX(1);
+}
+
+/* Second */
+
+.slide-link{
+    font-family: initial;
+    overflow: hidden;
+    position: relative;
+    font-size: 50px;
+    color: #222;
+}
+
+.slide-link span{
+    padding: 10px;
+    display: inline-block;
+    transition: transform 0.3s ease-out;
+}
+
+.slide-link span:nth-child(2){
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    left: 100%;
+}
+
+.slide-link:hover span{
+    transform: translateX(-100%);
+}
+
+/*Three*/
+
+.two-lines{
+    font-size: 50px;
+    text-decoration: none;
+    position: relative;
+    color: #222;
+}
+
+.two-lines::before,
+.two-lines::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    background: #222;
+    opacity: 0;
+    left: 50%;
+    transform: translate(-50%, 10px);
+    transition: all 0.2s ease-in-out;
+}
+
+.two-lines::before{
+    width: 90%;
+    bottom: 0;
+}
+
+.two-lines::after{
+    width: 60%;
+    bottom: -7px;
+}
+
+.two-lines:hover::before,
+.two-lines:hover::after{
+    opacity: 1;
+    transform: translate(-50%, 0px);
+}
+
+/*delai pour que une ligne viennen plutard*/
+.two-lines::before,
+.two-lines:hover::after{
+    transition-delay: 0.1s;
+}
+
+.two-lines:hover::before{
+    transition-delay: 0s;
+}
